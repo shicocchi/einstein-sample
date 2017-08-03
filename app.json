@@ -1,0 +1,16 @@
+{
+  "name": "Einstein Vision sample",
+  "description": "",
+  "repository": "",
+  "keywords": ["node", "express", "Einsteing Vision", "salesforce"],
+  "image": "heroku/nodejs",
+  "env":{
+//    "CUSTOM_MODEL_ID": {
+//      "description":"Model ID retrieved from Einstein Vision training on a dataset. Defaults to the General Image Classifier",
+//      "required":false
+//    }
+  },
+  "addons":[
+    "einstein-vision:starter"
+  ]
+}
